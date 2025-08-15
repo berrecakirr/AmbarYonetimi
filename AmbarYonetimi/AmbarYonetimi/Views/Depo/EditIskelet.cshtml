@@ -1,0 +1,48 @@
+﻿@model AmbarYonetimi.Models.IskeletDepo
+@{
+    ViewData["Title"] = "İskelet Düzenle";
+    Layout = "~/Views/Depo/_LayoutDepo.cshtml";
+}
+
+<h2>İskelet Düzenle</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="tablo" value="Iskelet" />
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="UrunAdi"></label>
+        <input asp-for="UrunAdi" class="form-control" readonly />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="UrunKodu"></label>
+        <input asp-for="UrunKodu" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RafKodu"></label>
+        <input asp-for="RafKodu" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Miktar"></label>
+        <input asp-for="Miktar" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="IslemYapan"></label>
+        <input asp-for="IslemYapan" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HareketTipi"></label>
+        <select asp-for="HareketTipi" class="form-control">
+            <option value="Giriş">Giriş</option>
+            <option value="Çıkış">Çıkış</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+

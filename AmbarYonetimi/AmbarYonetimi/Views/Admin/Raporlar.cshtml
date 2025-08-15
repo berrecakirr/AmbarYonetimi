@@ -1,0 +1,127 @@
+﻿@{
+    Layout = "~/Views/Admin/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "📊 Depo Raporları";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container mt-5">
+    <h2 class="text-center mb-5 fw-bold">📄 Depo Raporları</h2>
+
+    <div class="row g-4 justify-content-center">
+
+        @* Başlık Deposu *@
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-success">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Başlık Deposu</h5>
+                    <p>Excel olarak indir</p>
+                    <button onclick="downloadExcel('BaslikDepo')" class="btn btn-success mb-2 w-100">📥 Excel</button>
+                </div>
+            </div>
+        </div>
+
+        @* Sünger Deposu *@
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-info">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Sünger Deposu</h5>
+                    <p>Excel olarak indir</p>
+                    <button onclick="downloadExcel('SungerDepo')" class="btn btn-info mb-2 w-100">📥 Excel</button>
+                </div>
+            </div>
+        </div>
+
+        @* İskelet Deposu *@
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-primary">
+                <div class="card-body text-center">
+                    <h5 class="card-title">İskelet Deposu</h5>
+                    <p>Excel olarak indir</p>
+                    <button onclick="downloadExcel('IskeletDepo')" class="btn btn-primary mb-2 w-100">📥 Excel</button>
+                </div>
+            </div>
+        </div>
+
+        @* Kolçak Deposu *@
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-danger">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Kolçak Deposu</h5>
+                    <p>Excel olarak indir</p>
+                    <button onclick="downloadExcel('KolcakDepo')" class="btn btn-danger mb-2 w-100">📥 Excel</button>
+                </div>
+            </div>
+        </div>
+
+        @* Kılıf Deposu *@
+        <div class="col-md-4">
+            <div class="card shadow-sm border-start border-5 border-warning">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Kılıf Deposu</h5>
+                    <p>Excel olarak indir</p>
+                    <button onclick="downloadExcel('KilifDepo')" class="btn btn-warning mb-2 w-100 text-dark">📥 Excel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Loading Modal -->
+<div class="modal fade" id="loadingModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Yükleniyor...</span>
+                </div>
+                <p class="mt-2 mb-0">Rapor hazırlanıyor...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- xlsx -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+    async function downloadExcel(depoAdi) {
+        console.log(`Excel indirme başlatıldı: ${depoAdi}`);
+
+        const loadingModal = new bootstrap.Modal(document.getElementById('loadingModal'));
+        loadingModal.show();
+
+        try {
+            const response = await fetch(`/Admin/GetDepoVerileri?depo=${depoAdi}`, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            const data = await response.json();
+            if (!data || data.length === 0) {
+                alert("Seçilen depoda veri yok.");
+                return;
+            }
+
+            const worksheet = XLSX.utils.json_to_sheet(data);
+            const workbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(workbook, worksheet, depoAdi);
+
+            XLSX.writeFile(workbook, `${depoAdi}_Rapor_${new Date().toISOString().split('T')[0]}.xlsx`);
+
+            console.log('Excel dosyası başarıyla oluşturuldu');
+
+        } catch (error) {
+            console.error('Excel indirme hatası:', error);
+            alert(`Rapor oluşturulurken hata oluştu: ${error.message}`);
+        } finally {
+            loadingModal.hide();
+        }
+    }
+</script>

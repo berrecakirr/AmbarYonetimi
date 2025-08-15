@@ -1,0 +1,39 @@
+﻿@model AmbarYonetimi.Models.Malzeme
+
+@{
+    ViewData["Title"] = "Malzeme Ekle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Malzeme Ekle</h3>
+        </div>
+        <div class="card-body">
+            <form asp-controller="Malzeme" asp-action="Create" method="post">
+
+                <div class="form-group mb-3">
+                    <label asp-for="Ad" class="form-label">Malzeme Adı</label>
+                    <input asp-for="Ad" class="form-control" placeholder="Örn: Sünger" />
+                    <span asp-validation-for="Ad" class="text-danger small"></span>
+                </div>
+
+                <div class="form-group mb-4">
+                    <label asp-for="StokMiktari" class="form-label">Stok Miktarı</label>
+                    <input asp-for="StokMiktari" class="form-control" placeholder="Örn: 150" />
+                    <span asp-validation-for="StokMiktari" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-success">Kaydet</button>
+                    <a asp-action="Index" class="btn btn-secondary">Listeye Dön</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

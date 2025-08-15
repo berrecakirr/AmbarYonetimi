@@ -1,0 +1,417 @@
+﻿@{
+    Layout = "_LayoutMalzeme";
+    var tarihEtiketleri = ViewBag.TarihEtiketleri as List<string>;
+    var girisVerileri = ViewBag.GirisVerileri as List<int>;
+    var cikisVerileri = ViewBag.CikisVerileri as List<int>;
+}
+
+<style>
+    /* Custom Styles */
+    .movement-card {
+        border-left: 4px solid;
+        transition: transform 0.2s;
+    }
+
+        .movement-card:hover {
+            transform: translateY(-2px);
+        }
+
+    .movement-in {
+        border-left-color: #1cc88a !important;
+    }
+
+    .movement-out {
+        border-left-color: #e74a3b !important;
+    }
+
+    .movement-transfer {
+        border-left-color: #36b9cc !important;
+    }
+
+    .page-header {
+        background: linear-gradient(135deg, #1cc88a 0%, #17a673 100%);
+        color: white;
+        padding: 2rem 0;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+
+    .breadcrumb-custom {
+        background-color: rgba(255,255,255,0.1);
+        border-radius: 25px;
+        padding: 0.5rem 1rem;
+    }
+
+        .breadcrumb-custom a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+
+            .breadcrumb-custom a:hover {
+                color: white;
+            }
+</style>
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Header -->
+    <div class="page-header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-8">
+                    <h1 class="h2 mb-2">
+                        <i class="fas fa-hand-paper mr-3"></i>
+                        Koltuk Kolçak Malzeme Hareketleri
+                    </h1>
+                    <p class="mb-0">Koltuk kolçak malzemelerinin giriş, çıkış ve transfer hareketlerinin detaylı takibi</p>
+                </div>
+                <div class="col-lg-4">
+                    <nav class="breadcrumb-custom">
+                        <a href="@Url.Action("Index", "Home")">Dashboard</a> >
+                        <a href="#">Malzemeler</a> >
+                        <span class="text-white">Kolçak</span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- İstatistik Kartları -->
+    <div class="row mb-4">
+
+        <!-- Mevcut Stok -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Mevcut Stok
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.MevcutStok Adet</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-boxes fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bugün Giren -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-success shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Bugün Giren
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.BugunGiris Adet</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-arrow-down fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bugün Çıkan -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-danger shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                                Bugün Çıkan
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.BugunCikis Adet</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-arrow-up fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Minimum Stok Uyarısı -->
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-left-warning shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                Minimum Stok
+                            </div>
+                            <div class="h5 mb-0 font-weight-bold text-gray-800">160 Adet</div>
+                            <div class="text-xs text-success">Güvenli Seviye</div>
+                        </div>
+                        <div class="col-auto">
+                            <i class="fas fa-exclamation-triangle fa-2x text-gray-300"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Grafik ve Hızlı İşlemler -->
+    <div class="row">
+
+        <!-- Stok Hareket Grafiği -->
+        <div class="col-xl-8 col-lg-7">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                    <h6 class="m-0 font-weight-bold text-success">Son 7 Günlük Stok Hareketi</h6>
+                    <div class="dropdown no-arrow">
+                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in"
+                             aria-labelledby="dropdownMenuLink">
+                            <div class="dropdown-header">Rapor Seçenekleri:</div>
+                            <a class="dropdown-item" href="#">7 Günlük</a>
+                            <a class="dropdown-item" href="#">30 Günlük</a>
+                            <a class="dropdown-item" href="#">90 Günlük</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="chart-area">
+                        <canvas id="stockMovementChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hızlı İşlemler -->
+        <div class="col-xl-4 col-lg-5">
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-success">Hızlı İşlemler</h6>
+                </div>
+                <div class="card-body">
+                    <div class="d-grid gap-2">
+                        <a href="https://localhost:7295/Depo/Create" class="btn btn-success btn-block mb-3 text-decoration-none">
+                            <i class="fas fa-plus mr-2"></i>Stok Giriş
+                        </a>
+
+                        <a href="https://localhost:7295/Depo/Create" class="btn btn-danger btn-block mb-3 text-decoration-none">
+                            <i class="fas fa-minus mr-2"></i>Stok Çıkış
+                        </a>
+                        <a href="https://localhost:7295/Transfer/Index" class="btn btn-info btn-block mb-3 text-decoration-none">
+                            <i class="fas fa-exchange-alt mr-2"></i>Transfer
+                        </a>
+                 @*        <button class="btn btn-warning btn-block mb-3" onclick="showAdjustmentModal()">
+                            <i class="fas fa-edit mr-2"></i>Düzeltme
+                        </button> *@
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Rapor" asp-action="Index">
+                                <i class="fas fa-file-excel"></i> Rapor Al
+                            </a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stok Durumu -->
+            <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                    <h6 class="m-0 font-weight-bold text-success">Stok Durumu</h6>
+                </div>
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                Doluluk Oranı
+                            </div>
+                            <div class="row no-gutters align-items-center">
+                                <div class="col-auto">
+                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">78%</div>
+                                </div>
+                                <div class="col">
+                                    <div class="progress progress-sm mr-2">
+                                        <div class="progress-bar bg-success" role="progressbar"
+                                             style="width: 78%" aria-valuenow="78" aria-valuemin="0"
+                                             aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <small class="text-muted">
+                        <i class="fas fa-info-circle mr-1"></i>
+                        Maksimum kapasite: 820 adet
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.container-fluid -->
+<!-- Chart.js Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>
+
+<script>
+    // Set new default font family and font color to mimic Bootstrap's default styling
+    Chart.defaults.global.defaultFontFamily = 'Nunito', '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+    Chart.defaults.global.defaultFontColor = '#858796';
+
+    function number_format(number, decimals, dec_point, thousands_sep) {
+        number = (number + '').replace(',', '').replace(' ', '');
+        var n = !isFinite(+number) ? 0 : +number,
+            prec = !isFinite(+decimals) ? 0 : Math.abs(decimals),
+            sep = (typeof thousands_sep === 'undefined') ? ',' : thousands_sep,
+            dec = (typeof dec_point === 'undefined') ? '.' : dec_point,
+            s = '',
+            toFixedFix = function(n, prec) {
+                var k = Math.pow(10, prec);
+                return '' + Math.round(n * k) / k;
+            };
+        s = (prec ? toFixedFix(n, prec) : '' + Math.round(n)).split('.');
+        if (s[0].length > 3) {
+            s[0] = s[0].replace(/\B(?=(?:\d{3})+(?!\d))/g, sep);
+        }
+        if ((s[1] || '').length < prec) {
+            s[1] = s[1] || '';
+            s[1] += new Array(prec - s[1].length + 1).join('0');
+        }
+        return s.join(dec);
+    }
+
+    // Sayfa yüklendiğinde grafiği oluştur
+    document.addEventListener('DOMContentLoaded', function() {
+        // Stok Hareket Chart
+        var ctx = document.getElementById("stockMovementChart");
+        var stockMovementChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ["12 Tem", "13 Tem", "14 Tem", "15 Tem", "16 Tem", "17 Tem", "18 Tem"],
+                datasets: [{
+                    label: "Giriş",
+                    lineTension: 0.3,
+                    backgroundColor: "rgba(28, 200, 138, 0.1)",
+                    borderColor: "rgba(28, 200, 138, 1)",
+                    pointRadius: 3,
+                    pointBackgroundColor: "rgba(28, 200, 138, 1)",
+                    pointBorderColor: "rgba(28, 200, 138, 1)",
+                    pointHoverRadius: 3,
+                    pointHoverBackgroundColor: "rgba(28, 200, 138, 1)",
+                    pointHoverBorderColor: "rgba(28, 200, 138, 1)",
+                    pointHitRadius: 10,
+                    pointBorderWidth: 2,
+                    data: [72, 65, 89, 76, 92, 105, 108],
+                }, {
+                    label: "Çıkış",
+                    lineTension: 0.3,
+                    backgroundColor: "rgba(231, 74, 59, 0.1)",
+                    borderColor: "rgba(231, 74, 59, 1)",
+                    pointRadius: 3,
+                    pointBackgroundColor: "rgba(231, 74, 59, 1)",
+                    pointBorderColor: "rgba(231, 74, 59, 1)",
+                    pointHoverRadius: 3,
+                    pointHoverBackgroundColor: "rgba(231, 74, 59, 1)",
+                    pointHoverBorderColor: "rgba(231, 74, 59, 1)",
+                    pointHitRadius: 10,
+                    pointBorderWidth: 2,
+                    data: [54, 68, 42, 59, 51, 73, 82],
+                }],
+            },
+            options: {
+                maintainAspectRatio: false,
+                layout: {
+                    padding: {
+                        left: 10,
+                        right: 25,
+                        top: 25,
+                        bottom: 0
+                    }
+                },
+                scales: {
+                    xAxes: [{
+                        time: {
+                            unit: 'date'
+                        },
+                        gridLines: {
+                            display: false,
+                            drawBorder: false
+                        },
+                        ticks: {
+                            maxTicksLimit: 7
+                        }
+                    }],
+                    yAxes: [{
+                        ticks: {
+                            maxTicksLimit: 5,
+                            padding: 10,
+                            callback: function(value, index, values) {
+                                return number_format(value) + ' adet';
+                            }
+                        },
+                        gridLines: {
+                            color: "rgb(234, 236, 244)",
+                            zeroLineColor: "rgb(234, 236, 244)",
+                            drawBorder: false,
+                            borderDash: [2],
+                            zeroLineBorderDash: [2]
+                        }
+                    }],
+                },
+                legend: {
+                    display: true
+                },
+                tooltips: {
+                    backgroundColor: "rgb(255,255,255)",
+                    bodyFontColor: "#858796",
+                    titleMarginBottom: 10,
+                    titleFontColor: '#6e707e',
+                    titleFontSize: 14,
+                    borderColor: '#dddfeb',
+                    borderWidth: 1,
+                    xPadding: 15,
+                    yPadding: 15,
+                    displayColors: false,
+                    intersect: false,
+                    mode: 'index',
+                    caretPadding: 10,
+                    callbacks: {
+                        label: function(tooltipItem, chart) {
+                            var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
+                            return datasetLabel + ': ' + number_format(tooltipItem.yLabel) + ' adet';
+                        }
+                    }
+                }
+            }
+        });
+    });
+
+    // Buton fonksiyonları
+    function showStockEntryModal() {
+        alert('Kolçak Stok Giriş işlemi başlatılacak');
+    }
+
+    function showStockExitModal() {
+        alert('Kolçak Stok Çıkış işlemi başlatılacak');
+    }
+
+    function showTransferModal() {
+        alert('Kolçak Transfer işlemi başlatılacak');
+    }
+
+    function showAdjustmentModal() {
+        alert('Kolçak Stok Düzeltme işlemi başlatılacak');
+    }
+
+    function exportReport() {
+        alert('Kolçak Raporu indiriliyor...');
+    }
+
+    function viewMovementDetail(id) {
+        alert('Kolçak Hareket ID ' + id + ' detayları gösteriliyor');
+    }
+</script>

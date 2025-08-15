@@ -1,0 +1,59 @@
+﻿@model List<AmbarYonetimi.Models.BaslikDepo>
+
+@{
+    Layout = "_LayoutDepo";
+}
+
+<div style="margin-bottom: 15px;">
+    <a class="btn btn-primary" href="@Url.Action("Create", "Depo")">
+        Malzeme Güncelle
+    </a>
+</div>
+
+<h2>Başlık Depo Listesi</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ürün Adı</th>
+            <th>Ürün Kodu</th>
+            <th>Raf Kodu</th>
+            <th>Hareket Tipi</th>
+            <th>Miktar</th>
+            <th>İşlem Yapan</th>
+            <th>Tarih</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.UrunAdi</td>
+                <td>@item.UrunKodu</td>
+                <td>@item.RafKodu</td>
+                <td>@item.HareketTipi</td>
+                <td>@item.Miktar</td>
+                <td>@item.IslemYapan</td>
+                <td>@item.Tarih.ToString("dd.MM.yyyy")</td>
+                <td>
+                    <a class="btn btn-sm btn-warning"
+                       href="@Url.Action("Edit", "Depo", new { id = item.Id, tablo = "Baslik" })">
+                        Düzenle
+                    </a>
+
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <input type="hidden" name="tablo" value="Baslik" />
+                        <button type="submit" class="btn btn-danger btn-sm">Sil</button>
+                    </form>
+
+
+@*                     <a class="btn btn-sm btn-danger" href="@Url.Action("Delete", "Depo", new { id = item.Id })" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</a>
+ *@                </td>
+            </tr>
+        }
+    </tbody>
+</table>

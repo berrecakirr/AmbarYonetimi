@@ -1,0 +1,1275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\malzemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\malzemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\raporcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\raporcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\viewmodels\\depolarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\viewmodels\\depolarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\viewmodels\\baslikviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\viewmodels\\baslikviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\baslik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\baslik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\dashboard\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\dashboard\\_layoutdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\baslik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\baslik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\kolcak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\kolcak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\iskelet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\iskelet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\sunger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\sunger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\kilif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\kilif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\malzeme\\_layoutmalzeme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\malzeme\\_layoutmalzeme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\transfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\transfercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\controllers\\depocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\controllers\\depocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\kilif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\kilif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\sunger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\sunger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\kolcak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\kolcak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\iskelet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\iskelet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\_layoutadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\editsunger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\editsunger.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\baslikdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\baslikdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\editbaslik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\editbaslik.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\baslikdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\baslikdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\kolcakdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\kolcakdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\kilifdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\kilifdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\_layoutdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\_layoutdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\sungerdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\sungerdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\editiskelet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\editiskelet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\migrations\\20250805183831_authupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\migrations\\20250805183831_authupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\raporlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\raporlar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\kullanicilistesi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\kullanicilistesi.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\rapor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\rapor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\admin\\kullaniciekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\admin\\kullaniciekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\kilifdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\kilifdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\malzemehareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\malzemehareket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\iskeletdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\iskeletdepo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\editkilif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\editkilif.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\kolcakdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\kolcakdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\malzeme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\malzeme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\sungerdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\sungerdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\errorviewmodelcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\errorviewmodelcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\models\\iskeletdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\models\\iskeletdepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\pages\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\editkolcak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\editkolcak.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\transfer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\transfer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\views\\depo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\views\\depo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250730081732_AddTransferModelWithId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AmbarYonetimi\\Migrations\\20250730081732_AddTransferModelWithId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250729135831_AddTarihToBaslikDepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AmbarYonetimi\\Migrations\\20250729135831_AddTarihToBaslikDepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250729084820_AddTarihToDepolar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AmbarYonetimi\\Migrations\\20250729084820_AddTarihToDepolar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\ambaryonetimi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\ambaryonetimi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|c:\\users\\berre\\source\\repos\\ambaryonetimi\\ambaryonetimi\\migrations\\20250801134612_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C989F8-E645-47CC-9E70-16000B229E05}|AmbarYonetimi\\AmbarYonetimi.csproj|solutionrelative:ambaryonetimi\\migrations\\20250801134612_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 330,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DepoController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\DepoController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\DepoController.cs",
+              "ToolTip": "AmbarYonetimi/Controllers/DepoController.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAswCIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "AmbarYonetimi\\Controllers",
+              "OverriddenToolTip": "AmbarYonetimi/Controllers/DepoController.cs",
+              "WhenOpened": "2025-07-18T13:32:36.673Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepolarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\DepolarViewModel.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\ViewModels\\DepolarViewModel.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\DepolarViewModel.cs",
+              "RelativeToolTip": "AmbarYonetimi\\ViewModels\\DepolarViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T07:53:42.022Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "AmbarYonetimi\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:47:15.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:48:45.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MalzemeController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\MalzemeController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\MalzemeController.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\MalzemeController.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Controllers\\MalzemeController.cs",
+              "ViewState": "AgIAAEgBAAAAAAAAAAAcwFgBAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "AmbarYonetimi\\Controllers",
+              "WhenOpened": "2025-07-24T10:41:16.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaslikViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\BaslikViewModel.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\ViewModels\\BaslikViewModel.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\BaslikViewModel.cs",
+              "RelativeToolTip": "AmbarYonetimi\\ViewModels\\BaslikViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T10:18:57.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAkwLIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "AmbarYonetimi\\Controllers",
+              "WhenOpened": "2025-07-31T11:12:22.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:06:19.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RaporController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\RaporController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\RaporController.cs",
+              "ToolTip": "AmbarYonetimi/Controllers/RaporController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "AmbarYonetimi\\Controllers",
+              "OverriddenToolTip": "AmbarYonetimi/Controllers/RaporController.cs",
+              "WhenOpened": "2025-07-24T06:50:00.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Baslik.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Baslik.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\Baslik.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Baslik.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\Baslik.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAKkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T05:51:42.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Dashboard\\_LayoutDashboard.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Dashboard\\_LayoutDashboard.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Dashboard\\_LayoutDashboard.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Dashboard\\_LayoutDashboard.cshtml",
+              "ViewState": "AgIAABQBAAAAAAAAAAAmwDIBAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T13:25:48.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAYwGsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-29T08:06:43.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T13:34:23.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "AmbarYonetimi\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-13T06:18:31.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\appsettings.json",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\appsettings.json",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\appsettings.json",
+              "RelativeToolTip": "AmbarYonetimi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-23T15:00:20.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\_ViewImports.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T14:35:24.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T14:59:43.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Baslik.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Baslik.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\Baslik.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Baslik.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\Baslik.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T07:23:35.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T14:50:08.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-06T14:55:01.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Sunger.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Sunger.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\Sunger.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Sunger.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\Sunger.cshtml",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAAAPwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:04:55.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Iskelet.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Iskelet.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\Iskelet.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Iskelet.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\Iskelet.cshtml",
+              "ViewState": "AgIAAIIBAAAAAAAAAAAAAKABAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:03:57.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Kilif.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Kilif.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\Kilif.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Kilif.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\Kilif.cshtml",
+              "ViewState": "AgIAAPMAAAAAAAAAAAAAAPwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:04:19.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\Index.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAKAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T11:53:26.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Create.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\Create.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Create.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\Create.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T12:06:44.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_LayoutMalzeme.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\_LayoutMalzeme.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\_LayoutMalzeme.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\_LayoutMalzeme.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\_LayoutMalzeme.cshtml",
+              "ViewState": "AgIAAGwBAAAAAAAAAAAmwIMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T11:41:33.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Kolcak.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Kolcak.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Malzeme\\Kolcak.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Malzeme\\Kolcak.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Malzeme\\Kolcak.cshtml",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAJ4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:04:38.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-08T08:30:18.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TransferController.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\TransferController.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Controllers\\TransferController.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Controllers\\TransferController.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Controllers\\TransferController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T06:16:43.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Kilif.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Kilif.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\Kilif.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Kilif.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\Kilif.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T07:25:03.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Sunger.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Sunger.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\Sunger.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Sunger.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\Sunger.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T07:24:38.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Malzeme.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\Malzeme.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\Malzeme.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\Malzeme.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\Malzeme.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:01:04.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Kolcak.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Kolcak.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\Kolcak.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Kolcak.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\Kolcak.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T07:25:26.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Iskelet.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Iskelet.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\Iskelet.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Iskelet.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\Iskelet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T07:25:53.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\Create.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\Create.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\Create.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\Create.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T06:37:58.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EditSunger.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditSunger.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\EditSunger.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditSunger.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\EditSunger.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T12:18:40.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_LayoutAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\_LayoutAdmin.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\_LayoutAdmin.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\_LayoutAdmin.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\_LayoutAdmin.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T11:14:58.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T11:18:02.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Program.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Program.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Program.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T11:44:31.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EditBaslik.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditBaslik.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\EditBaslik.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditBaslik.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\EditBaslik.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T12:17:10.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "BaslikDepo.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\BaslikDepo.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\BaslikDepo.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\BaslikDepo.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\BaslikDepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:30:53.275Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BaslikDepo.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\BaslikDepo.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\BaslikDepo.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\BaslikDepo.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\BaslikDepo.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T07:13:22.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "KolcakDepo.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\KolcakDepo.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\KolcakDepo.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\KolcakDepo.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\KolcakDepo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T14:37:37.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_LayoutDepo.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\_LayoutDepo.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\_LayoutDepo.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\_LayoutDepo.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\_LayoutDepo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T10:59:20.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "KilifDepo.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\KilifDepo.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\KilifDepo.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\KilifDepo.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\KilifDepo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T14:37:38.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "SungerDepo.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\SungerDepo.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\SungerDepo.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\SungerDepo.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\SungerDepo.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T12:39:07.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EditIskelet.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditIskelet.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\EditIskelet.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditIskelet.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\EditIskelet.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T12:18:24.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250805183831_AuthUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250805183831_AuthUpdate.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Migrations\\20250805183831_AuthUpdate.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250805183831_AuthUpdate.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Migrations\\20250805183831_AuthUpdate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T18:38:31.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "KullaniciListesi.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\KullaniciListesi.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\KullaniciListesi.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\KullaniciListesi.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\KullaniciListesi.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T11:13:52.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Raporlar.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Raporlar.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\Raporlar.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Raporlar.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\Raporlar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T09:57:53.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Rapor\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Rapor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Rapor\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Rapor\\Index.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAIBJwHYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:49:08.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAIBJwFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-31T11:13:07.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "KullaniciEkle.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\KullaniciEkle.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Admin\\KullaniciEkle.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Admin\\KullaniciEkle.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Admin\\KullaniciEkle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-04T07:14:26.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:02:20.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\AppDbContextFactory.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:41:12.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "KilifDepo.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\KilifDepo.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\KilifDepo.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\KilifDepo.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\KilifDepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:31:00.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\User.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\User.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T14:47:27.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Transfer.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\Transfer.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\Transfer.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\Transfer.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\Transfer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA5wA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T06:19:36.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "MalzemeHareket.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\MalzemeHareket.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\MalzemeHareket.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\MalzemeHareket.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\MalzemeHareket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:37:18.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "IskeletDepo.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\IskeletDepo.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\IskeletDepo.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\IskeletDepo.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\IskeletDepo.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T10:26:47.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "EditKilif.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditKilif.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\EditKilif.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditKilif.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\EditKilif.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T12:17:40.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "20250801134612_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250801134612_InitialCreate.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Migrations\\20250801134612_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250801134612_InitialCreate.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Migrations\\20250801134612_InitialCreate.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:46:12.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "KolcakDepo.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\KolcakDepo.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\KolcakDepo.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\KolcakDepo.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\KolcakDepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:31:06.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\Kullanici.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\Kullanici.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\Kullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T10:36:39.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "SungerDepo.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\SungerDepo.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\SungerDepo.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\SungerDepo.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\SungerDepo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:31:15.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ErrorViewModelcs.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\ErrorViewModelcs.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\ErrorViewModelcs.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\ErrorViewModelcs.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\ErrorViewModelcs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T10:41:11.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "IskeletDepo.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\IskeletDepo.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Models\\IskeletDepo.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Models\\IskeletDepo.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Models\\IskeletDepo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T12:30:44.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Pages\\Error.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Pages\\Error.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Pages\\Error.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Pages\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T11:33:32.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Pages\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-01T11:33:30.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "EditKolcak.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditKolcak.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\EditKolcak.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\EditKolcak.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\EditKolcak.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T12:17:28.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AmbarYonetimi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-23T14:47:38.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Transfer\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Transfer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Transfer\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Transfer\\Index.cshtml",
+              "ViewState": "AgIAAGQAAAAAAAAAAIBJwHAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T06:16:02.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\Index.cshtml",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Views\\Depo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Views\\Depo\\Index.cshtml",
+              "RelativeToolTip": "AmbarYonetimi\\Views\\Depo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T07:13:53.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "20250730081732_AddTransferModelWithId.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250730081732_AddTransferModelWithId.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Migrations\\20250730081732_AddTransferModelWithId.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250730081732_AddTransferModelWithId.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Migrations\\20250730081732_AddTransferModelWithId.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:17:32.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "20250729135831_AddTarihToBaslikDepo.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250729135831_AddTarihToBaslikDepo.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Migrations\\20250729135831_AddTarihToBaslikDepo.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250729135831_AddTarihToBaslikDepo.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Migrations\\20250729135831_AddTarihToBaslikDepo.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T13:58:31.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "20250729084820_AddTarihToDepolar.cs",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250729084820_AddTarihToDepolar.cs",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\Migrations\\20250729084820_AddTarihToDepolar.cs",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\Migrations\\20250729084820_AddTarihToDepolar.cs",
+              "RelativeToolTip": "AmbarYonetimi\\Migrations\\20250729084820_AddTarihToDepolar.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:48:20.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "AmbarYonetimi",
+              "DocumentMoniker": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\AmbarYonetimi.csproj",
+              "RelativeDocumentMoniker": "AmbarYonetimi\\AmbarYonetimi.csproj",
+              "ToolTip": "C:\\Users\\berre\\source\\repos\\AmbarYonetimi\\AmbarYonetimi\\AmbarYonetimi.csproj",
+              "RelativeToolTip": "AmbarYonetimi\\AmbarYonetimi.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-23T14:42:36.365Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e78e0cf7-2e4e-48a7-bf7f-a94d9330a3be}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

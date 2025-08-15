@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"] - Ambar Yönetimi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Dashboard CSS -->
+    <link href="~/dashboard/css/style.css" rel="stylesheet" />
+    <link href="~/dashboard/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/dashboard/fonts/fontawesome.css" rel="stylesheet" />
+    <!-- Gerekirse diğer css dosyaları da eklenir -->
+    @RenderSection("Styles", required: false)
+</head>
+<body>
+    <!-- Sidebar / Header / Menü bileşenleri buraya -->
+
+        @RenderBody()
+
+    <!-- Dashboard JS -->
+    <script src="~/dashboard/js/jquery.min.js"></script>
+    <script src="~/dashboard/js/bootstrap.bundle.min.js"></script>
+    <script src="~/dashboard/js/main.js"></script>
+    <!-- Gerekirse diğer scriptler -->
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

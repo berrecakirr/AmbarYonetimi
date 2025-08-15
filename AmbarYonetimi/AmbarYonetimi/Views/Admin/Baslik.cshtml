@@ -1,0 +1,46 @@
+﻿@model List<AmbarYonetimi.Models.BaslikDepo>
+@{
+    Layout = "~/Views/Admin/_LayoutAdmin.cshtml";
+    ViewData["Title"] = "Başlık Deposu";
+}
+
+<h2>Başlık Deposu</h2>
+<a class="btn btn-primary mb-3" href="@Url.Action("Create", "Depo")">+ Yeni Malzeme Ekle</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ürün Adı</th>
+            <th>Ürün Kodu</th>
+            <th>Raf Kodu</th>
+            <th>Hareket Tipi</th>
+            <th>Miktar</th>
+            <th>İşlem Yapan</th>
+            <th>İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.UrunAdi</td>
+                <td>@item.UrunKodu</td>
+                <td>@item.RafKodu</td>
+                <td>@item.HareketTipi</td>
+                <td>@item.Miktar</td>
+                <td>@item.IslemYapan</td>
+                <td>
+                    <a class="btn btn-sm btn-warning"
+                       href="@Url.Action("Edit", "Depo", new { id = item.Id, tablo = "Baslik" })">
+                        Düzenle
+                    </a>
+                    <a class="btn btn-sm btn-danger"
+                       href="@Url.Action("BaslikSil", "Admin", new { id = item.Id })"
+                       onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

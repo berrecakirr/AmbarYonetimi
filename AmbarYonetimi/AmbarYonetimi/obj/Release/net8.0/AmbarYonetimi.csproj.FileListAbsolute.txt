@@ -1,0 +1,9 @@
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.csproj.AssemblyReference.cache
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\rpswa.dswa.cache.json
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.AssemblyInfoInputs.cache
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.AssemblyInfo.cs
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.csproj.CoreCompileInputs.cache
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.RazorAssemblyInfo.cache
+C:\Users\berre\source\repos\AmbarYonetimi\AmbarYonetimi\obj\Release\net8.0\AmbarYonetimi.RazorAssemblyInfo.cs

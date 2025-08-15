@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Views/Admin/_LayoutAdmin.cshtml";
+}
+
+<h2 class="mb-4">Admin Dashboard</h2>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Toplam Malzeme</h5>
+                <p class="card-text fs-4">@ViewBag.ToplamMalzeme</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Toplam Giriş</h5>
+                <p class="card-text fs-4">@ViewBag.ToplamGiris</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-white bg-danger mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Toplam Çıkış</h5>
+                <p class="card-text fs-4">@ViewBag.ToplamCikis</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card text-dark bg-warning mb-3">
+            <div class="card-body">
+                <h5 class="card-title">Stok Durumu</h5>
+                <p class="card-text fs-4">@ViewBag.StokDurumu</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h4 class="mt-5">Son Yapılan İşlemler</h4>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Tarih</th>
+            <th>Ürün</th>
+            <th>Hareket Tipi</th>
+            <th>Miktar</th>
+            <th>İşlem Yapan</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var hareket in ViewBag.SonIslemler)
+        {
+            <tr>
+                <td>@hareket.Tarih</td>
+                <td>@hareket.UrunAdi</td>
+                <td>@hareket.HareketTipi</td>
+                <td>@hareket.Miktar</td>
+                <td>@hareket.IslemYapan</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+<script>
+    async function downloadExcel(depoAdi) {
+        try {
+            const response = await fetch(`/AdminRapor/GetDepoVerileri?depo=${depoAdi}`);
+            const data = await response.json();
+
+            if (!data || data.length === 0) {
+                alert("Seçilen depoya ait veri bulunamadı.");
+                return;
+            }
+
+            const worksheet = XLSX.utils.json_to_sheet(data);
+            const workbook = XLSX.utils.book_new();
+            XLSX.utils.book_append_sheet(workbook, worksheet, depoAdi);
+
+            XLSX.writeFile(workbook, `${depoAdi}_Rapor.xlsx`);
+        } catch (error) {
+            console.error("Excel oluşturulurken hata:", error);
+            alert("Rapor alınırken hata oluştu.");
+        }
+    }
+</script>
+
